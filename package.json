@@ -1,0 +1,27 @@
+{
+  "name": "fasty_api",
+  "version": "1.0.0",
+  "description": "api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "export GOOGLE_APPLICATION_CREDENTIALS='./chat-sb-af499-firebase-adminsdk-kup7w-6ac330faf7.json' && nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sergei-Brykov/fasty_api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sergei-Brykov/fasty_api/issues"
+  },
+  "homepage": "https://github.com/Sergei-Brykov/fasty_api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "fastify": "^3.10.1",
+    "firebase-admin": "^9.4.2",
+    "middie": "^5.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
